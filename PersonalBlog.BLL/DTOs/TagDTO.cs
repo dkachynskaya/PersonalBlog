@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonalBlog.BLL
+namespace PersonalBlog.BLL.DTOs
 {
-    public class Class1
+    public class TagDTO
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

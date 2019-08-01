@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonalBlog.DAL.Contracts
 {
-    interface IUnitOfWork: IDisposable
+    public interface IUnitOfWork: IDisposable
     {
         IArticleRepository ArticleRepository { get; }
         ICommentRepository CommentRepository { get; }
